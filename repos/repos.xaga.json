@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Xaga_Proton",
-      "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
-      "branch": "xaga-s-oss",
+      "name": "Xaga-gki_proton",
+      "repo": "https://github.com/Rohail33/Realking_xiaomi_xaga",
+      "branch": "main",
       "device": "xaga",
-      "defconfig": "xaga_defconfig"
+      "defconfig": "gki_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -20,6 +20,8 @@
     "params": {
       "ARCH": "arm64",
       "CC": "proton-clang/bin/clang",
+      "LLVM_IAS": "1",
+      "LLVM": "1",
       "externalCommand": {
         "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
