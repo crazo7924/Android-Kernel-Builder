@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "Xaga-gki_proton",
-      "repo": "https://github.com/Rohail33/Realking_xiaomi_xaga",
-      "branch": "stable",
+      "repo": "https://github.com/xiaomi-mediatek-devs/android_kernel_xiaomi_mt6895",
+      "branch": "lineage-21",
       "device": "xaga",
       "defconfig": "gki_defconfig"
     },
